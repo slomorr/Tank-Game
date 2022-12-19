@@ -6,6 +6,7 @@ pygame.init()
 
 window = pygame.display.set_mode((WIDTH, HEIGHT), pygame.RESIZABLE)
 pygame.display.set_caption("Tank Game")
+pygame.display.set_icon(pygame.image.load('image/icon.png'))
 clock = pygame.time.Clock()
 fontUI = pygame.font.Font(None, 30)
 Arial_50 = pygame.font.SysFont('arial', 50)
